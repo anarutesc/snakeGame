@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "SnakeHead",
+"language": "GDScript",
+"path": "res://Snake/SnakeHead.gd"
+}, {
+"base": "Sprite",
+"class": "SpriteHead",
+"language": "GDScript",
+"path": "res://Snake/SpriteHead.gd"
+}, {
+"base": "TileMap",
+"class": "gridSnake",
+"language": "GDScript",
+"path": "res://gridSnake.gd"
+} ]
+_global_script_class_icons={
+"SnakeHead": "",
+"SpriteHead": "",
+"gridSnake": ""
+}
+
+[application]
+
+config/name="snake"
+run/main_scene="res://game.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

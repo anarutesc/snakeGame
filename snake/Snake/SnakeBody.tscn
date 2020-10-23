@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Snake/SnakeTexture.png" type="Texture" id=1]
+
+[node name="SnakeBody" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 22.4492, 24.6942 )
+texture = ExtResource( 1 )
