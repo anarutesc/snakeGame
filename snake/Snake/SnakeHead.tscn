@@ -4,10 +4,12 @@
 [ext_resource path="res://Snake/SnakeHead.gd" type="Script" id=2]
 [ext_resource path="res://Snake/SpriteHead.gd" type="Script" id=3]
 
-[node name="SnakeHead" type="Node2D"]
+[node name="SnakeHead" type="Node2D" groups=[
+"snakeHeadBody",
+]]
 script = ExtResource( 2 )
 
 [node name="SpriteHead" type="Sprite" parent="."]
-position = Vector2( 49.9467, 51.1359 )
+position = Vector2( 16.5098, 16.3586 )
 texture = ExtResource( 1 )
 script = ExtResource( 3 )

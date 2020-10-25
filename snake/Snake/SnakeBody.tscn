@@ -2,8 +2,10 @@
 
 [ext_resource path="res://Snake/SnakeTexture.png" type="Texture" id=1]
 
-[node name="SnakeBody" type="Node2D"]
+[node name="SnakeBody" type="Node2D" groups=[
+"snakeHeadBody",
+]]
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 22.4492, 24.6942 )
+position = Vector2( 16.6113, 16.0767 )
 texture = ExtResource( 1 )

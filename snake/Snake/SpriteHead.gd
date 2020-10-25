@@ -4,7 +4,6 @@ class_name SpriteHead
 
 signal input_detected(direction)
 
-
 func _process(delta):
 	if Input.is_action_pressed("ui_left"):
 		var direction: Vector2 = Vector2(-1, 0)

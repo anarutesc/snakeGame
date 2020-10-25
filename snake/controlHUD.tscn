@@ -1,0 +1,18 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="numPoints" type="Label" parent="."]
+margin_left = 1.49831
+margin_top = 2.99661
+margin_right = 41.4983
+margin_bottom = 56.9966
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
